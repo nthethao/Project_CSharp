@@ -1,0 +1,150 @@
+﻿Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Attempt to stop service Service2.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Installing service Service2...
+Creating EventLog source Service2 in log Application...
+Rolling back assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Restoring event log to previous state for source Service2.
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Removing EventLog source Service2.
+Warning: The source Service2 is not registered on the local machine.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Attempt to stop service Service2.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.

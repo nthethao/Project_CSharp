@@ -1,0 +1,6 @@
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\AbstractClassInterface\bin\Debug\AbstractClassInterface.exe.config
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\AbstractClassInterface\bin\Debug\AbstractClassInterface.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\AbstractClassInterface\bin\Debug\AbstractClassInterface.pdb
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\AbstractClassInterface\obj\Debug\AbstractClassInterface.csprojResolveAssemblyReference.cache
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\AbstractClassInterface\obj\Debug\AbstractClassInterface.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\AbstractClassInterface\obj\Debug\AbstractClassInterface.pdb

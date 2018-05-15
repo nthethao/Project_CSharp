@@ -1,0 +1,8 @@
+c:\users\nthethao\documents\visual studio 2012\Projects\TestWindowsService\WindowsService1\bin\Debug\WindowsService1.exe.config
+c:\users\nthethao\documents\visual studio 2012\Projects\TestWindowsService\WindowsService1\bin\Debug\WindowsService1.exe
+c:\users\nthethao\documents\visual studio 2012\Projects\TestWindowsService\WindowsService1\bin\Debug\WindowsService1.pdb
+c:\users\nthethao\documents\visual studio 2012\Projects\TestWindowsService\WindowsService1\obj\Debug\WindowsService1.csprojResolveAssemblyReference.cache
+c:\users\nthethao\documents\visual studio 2012\Projects\TestWindowsService\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+c:\users\nthethao\documents\visual studio 2012\Projects\TestWindowsService\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.Cache
+c:\users\nthethao\documents\visual studio 2012\Projects\TestWindowsService\WindowsService1\obj\Debug\WindowsService1.exe
+c:\users\nthethao\documents\visual studio 2012\Projects\TestWindowsService\WindowsService1\obj\Debug\WindowsService1.pdb

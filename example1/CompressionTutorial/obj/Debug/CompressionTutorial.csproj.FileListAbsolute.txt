@@ -1,0 +1,6 @@
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\CompressionTutorial\bin\Debug\CompressionTutorial.exe.config
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\CompressionTutorial\bin\Debug\CompressionTutorial.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\CompressionTutorial\bin\Debug\CompressionTutorial.pdb
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\CompressionTutorial\obj\Debug\CompressionTutorial.csprojResolveAssemblyReference.cache
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\CompressionTutorial\obj\Debug\CompressionTutorial.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\CompressionTutorial\obj\Debug\CompressionTutorial.pdb

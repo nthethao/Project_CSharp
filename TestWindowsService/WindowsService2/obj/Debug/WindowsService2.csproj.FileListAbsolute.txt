@@ -1,0 +1,8 @@
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe.config
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\obj\Debug\WindowsService2.ProjectInstaller.resources
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\obj\Debug\WindowsService2.csproj.GenerateResource.Cache
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\bin\Debug\WindowsService2.pdb
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\obj\Debug\WindowsService2.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\obj\Debug\WindowsService2.pdb
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\WindowsService2\obj\Debug\WindowsService2.csprojResolveAssemblyReference.cache

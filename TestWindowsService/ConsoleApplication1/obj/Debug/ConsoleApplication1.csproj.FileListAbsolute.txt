@@ -1,0 +1,6 @@
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\TestWindowsService\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,6 @@
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\Basic_Example\bin\Debug\Basic_Example.exe.config
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\Basic_Example\obj\Debug\Basic_Example.csprojResolveAssemblyReference.cache
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\Basic_Example\bin\Debug\Basic_Example.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\Basic_Example\bin\Debug\Basic_Example.pdb
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\Basic_Example\obj\Debug\Basic_Example.exe
+C:\Users\nthethao\Documents\Visual Studio 2012\Projects\example1\Basic_Example\obj\Debug\Basic_Example.pdb

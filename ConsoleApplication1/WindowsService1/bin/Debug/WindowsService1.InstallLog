@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe

@@ -1,0 +1,8 @@
+c:\users\nthethao\documents\visual studio 2012\Projects\SimplyService\SimplyService\bin\Debug\SimplyService.exe.config
+c:\users\nthethao\documents\visual studio 2012\Projects\SimplyService\SimplyService\bin\Debug\SimplyService.exe
+c:\users\nthethao\documents\visual studio 2012\Projects\SimplyService\SimplyService\bin\Debug\SimplyService.pdb
+c:\users\nthethao\documents\visual studio 2012\Projects\SimplyService\SimplyService\obj\Debug\SimplyService.csprojResolveAssemblyReference.cache
+c:\users\nthethao\documents\visual studio 2012\Projects\SimplyService\SimplyService\obj\Debug\SimplyService.Service1.resources
+c:\users\nthethao\documents\visual studio 2012\Projects\SimplyService\SimplyService\obj\Debug\SimplyService.csproj.GenerateResource.Cache
+c:\users\nthethao\documents\visual studio 2012\Projects\SimplyService\SimplyService\obj\Debug\SimplyService.exe
+c:\users\nthethao\documents\visual studio 2012\Projects\SimplyService\SimplyService\obj\Debug\SimplyService.pdb
