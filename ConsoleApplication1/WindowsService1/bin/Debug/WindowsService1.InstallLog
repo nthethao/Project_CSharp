@@ -11,3 +11,95 @@ Affected parameters are:
    logtoconsole = 
    logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
    assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service_1...
+Service Service_1 has been successfully installed.
+Creating EventLog source Service_1 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Removing EventLog source Service_1.
+Service Service_1 is being removed from the system...
+Service Service_1 was successfully removed from the system.
+Installing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service_1...
+Service Service_1 has been successfully installed.
+Creating EventLog source Service_1 in log Application...
+Committing assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Uninstalling assembly 'C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\nthethao\Documents\Visual Studio 2012\Projects\ConsoleApplication1\WindowsService1\bin\Debug\WindowsService1.exe
+Removing EventLog source Service_1.
+Service Service_1 is being removed from the system...
+Service Service_1 was successfully removed from the system.

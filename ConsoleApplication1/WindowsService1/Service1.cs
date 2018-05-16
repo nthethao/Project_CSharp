@@ -14,69 +14,79 @@ namespace WindowsService1
 {
     public partial class Service1 : ServiceBase
     {
+
+        private Thread threadWriteLog = new Thread(ThreadTimer);
+        static AutoResetEvent autoEvent = new AutoResetEvent(true);
+
         public Service1()
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// viết file log
+        /// </summary>
+        /// <param name="message"></param>
         private static void WriteLog(object message)
         {
-            StreamWriter sw = null;
             try
             {
-                sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Log.txt", true);
-                sw.WriteLine(DateTime.Now.ToString() + ": " + message + "\n");
-                sw.Flush();
-                sw.Close();
+                StreamWriter strWrite = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Log.txt", true);
+                strWrite.WriteLine(DateTime.Now.ToString() + ": " + message + "\n");
+                strWrite.Flush();
+                strWrite.Close();
             }
             catch
             {
             }
         }
-        public static void ThreadTimer()
+        /// <summary>
+        /// thực hiện vòng lặp thread 10s một lần
+        /// </summary>
+        /// <param name="state"></param>
+        private static void ThreadTimer(object state)
         {
+            WriteLog("Log Test Begin");
             TimerCallback handler = new TimerCallback(WriteLog);
-            string state = "Log Begin!!!";
-
             using (var timer = new Timer(handler, state, 0, 10000))
             {
-                while (true)
+                while (autoEvent.WaitOne(10000))
                 {
+                    autoEvent.Set();
                 }
             };
-
-
         }
-        private static void WriteEvenLog(string message)
+
+        /// <summary>
+        /// thực hiện evenlog
+        /// </summary>
+        /// <param name="message"></param>
+        private  void WriteEvenLog(string message)
         {
-            EventLog eventlog = new EventLog();
-            eventlog.Source = "TestWindowLog";
-            eventlog.Log = "Application";
+            EventLog eventLog = new EventLog();
+            eventLog.Source = "Service_1";
+            eventLog.Log = "Application";
             int eventID = 123;
-            if (!EventLog.SourceExists(eventlog.Source))
+            if (!EventLog.SourceExists(eventLog.Source))
             {
-                EventLog.CreateEventSource(eventlog.Source, eventlog.Log);
+                EventLog.CreateEventSource(eventLog.Source, eventLog.Log);
             }
             else
             {
-                EventLog.WriteEntry(eventlog.Source, message, EventLogEntryType.Information, eventID);
+                EventLog.WriteEntry(eventLog.Source, message, EventLogEntryType.Information, eventID);
             }
         }
 
 
-
-        private Thread thread1 = new Thread(ThreadTimer);
         protected override void OnStart(string[] args)
         {
-            WriteLog("Log Test Begin");
-            thread1.Start();
+            threadWriteLog.Start("Log Test Doing");
             WriteEvenLog("Evenlog Test Begin");
         }
 
         protected override void OnStop()
         {
             WriteLog("Log Test Stop");
-            thread1.Abort();
+            threadWriteLog.Abort();
             WriteEvenLog("Evenlog Test Stop");
         }
     }

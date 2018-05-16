@@ -15,5 +15,15 @@ namespace WindowsService1
         {
             InitializeComponent();
         }
+
+        private void Service_1_AfterInstall(object sender, InstallEventArgs e)
+        {
+
+        }
+
+        private void serviceProcessInstaller1_AfterInstall(object sender, InstallEventArgs e)
+        {
+
+        }
     }
 }

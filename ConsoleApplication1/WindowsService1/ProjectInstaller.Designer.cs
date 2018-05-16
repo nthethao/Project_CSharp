@@ -36,11 +36,13 @@
             this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
+            this.serviceProcessInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceProcessInstaller1_AfterInstall);
             // 
             // Service_1
             // 
             this.Service_1.DisplayName = "Service_1";
-            this.Service_1.ServiceName = "Service1";
+            this.Service_1.ServiceName = "Service_1";
+            this.Service_1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.Service_1_AfterInstall);
             // 
             // ProjectInstaller
             // 
