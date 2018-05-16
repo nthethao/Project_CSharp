@@ -8,7 +8,7 @@ public class ConsoleApplication1
 
     static AutoResetEvent autoevent = new AutoResetEvent(true);
 
-    private static void WriteLog(object message)
+    private  void WriteLog(object message)
     {
         try
         {
@@ -21,7 +21,7 @@ public class ConsoleApplication1
         {
         }
     }
-    public static void ThreadTimer(object state)
+    public  void ThreadTimer(object state)
     {
         WriteLog("Evenlog Test begin");
         TimerCallback handler = new TimerCallback(WriteLog);
@@ -37,6 +37,8 @@ public class ConsoleApplication1
 
 
     }
+    // WriteEvenLog
+    
     //private static void WriteEvenLog(string message) {
     //    //create regitri to fix The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security 
     //    EventLog eventlog = new EventLog();
@@ -56,7 +58,8 @@ public class ConsoleApplication1
 
     public static void Main()
     {
-        Thread thread1 = new Thread(ThreadTimer);
+        ConsoleApplication1 class1 = new ConsoleApplication1();
+        Thread thread1 = new Thread(class1.ThreadTimer);
         thread1.Start("Log Doing !!!");
   //      WriteEvenLog("Evenlog Test begin");
         
