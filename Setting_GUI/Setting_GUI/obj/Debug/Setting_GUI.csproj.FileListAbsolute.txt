@@ -1,0 +1,9 @@
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\bin\Debug\Setting_GUI.exe.config
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\bin\Debug\Setting_GUI.exe
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\bin\Debug\Setting_GUI.pdb
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\obj\Debug\Setting_GUI.csprojResolveAssemblyReference.cache
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\obj\Debug\Setting_GUI.Form1.resources
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\obj\Debug\Setting_GUI.Properties.Resources.resources
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\obj\Debug\Setting_GUI.csproj.GenerateResource.Cache
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\obj\Debug\Setting_GUI.exe
+c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI\Setting_GUI\obj\Debug\Setting_GUI.pdb

@@ -6,39 +6,46 @@ using System.Threading;
 public class ConsoleApplication1
 {
 
-    static AutoResetEvent autoevent = new AutoResetEvent(true);
+    static ManualResetEvent autoEvent = new ManualResetEvent(false);
 
-    private  void WriteLog(object message)
+    private void WriteLog(object message)
     {
         try
         {
-            StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Log.txt", true);
-            sw.WriteLine(DateTime.Now.ToString() + ": " + message + "\n");
-            sw.Flush();
-            sw.Close();
+            //StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Log.txt", true);
+            //sw.WriteLine(DateTime.Now.ToString() + ": " + message + "\n");
+            //sw.Flush();
+            //sw.Close();
+            Console.WriteLine(DateTime.Now.ToString() + ":  " + message);
         }
         catch
         {
         }
     }
-    public  void ThreadTimer(object state)
+    public void ThreadTimer()
     {
         WriteLog("Evenlog Test begin");
-        TimerCallback handler = new TimerCallback(WriteLog);
-   //     string state = "Log Begin!!!";
+        //TimerCallback handler = new TimerCallback(WriteLog);
 
-        using (var timer = new Timer(handler, state, 0, 3000)) {
-            while (autoevent.WaitOne(3000)){
+        //var timer = new Timer(handler, state, 0, 1000);
 
-                autoevent.Set();
-            }
-            WriteLog("Evenlog Test Stop");
-        };
+        while (!autoEvent.WaitOne(1000))
+        {
+
+     //       autoEvent.Set();
+            WriteLog("Evenlog Test Doing ");
+
+        }
+
+
+
+        WriteLog("Evenlog Test Stop");
+
 
 
     }
     // WriteEvenLog
-    
+
     //private static void WriteEvenLog(string message) {
     //    //create regitri to fix The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security 
     //    EventLog eventlog = new EventLog();
@@ -60,8 +67,9 @@ public class ConsoleApplication1
     {
         ConsoleApplication1 class1 = new ConsoleApplication1();
         Thread thread1 = new Thread(class1.ThreadTimer);
-        thread1.Start("Log Doing !!!");
-  //      WriteEvenLog("Evenlog Test begin");
-        
+        thread1.Start();
+        //      WriteEvenLog("Evenlog Test begin");
+        Console.Read();
+
     }
 }

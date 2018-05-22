@@ -1,36 +1,53 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication2
-{
     class Program
     {
-        static void Main(string[] args)
-        {
-            // timers.
-            Program ex = new Program();
-            ex.StartTimer(2000);
-            ex.StartTimer(1000);
+        private static AutoResetEvent event_1 = new AutoResetEvent(false);
+        private static AutoResetEvent event_2 = new AutoResetEvent(false);
 
-            Console.WriteLine("Press Enter to end the program.");
-            Console.ReadLine();
-        }
-        public void StartTimer(int dueTime)
+        static void Main()
         {
-            Timer t = new Timer(new TimerCallback(TimerProc));
-            t.Change(dueTime, 0);
-        }
+            Console.WriteLine("Press Enter to create three threads and start them.\r\n");
+          
 
-        private void TimerProc(object state)
+        
+                Thread t = new Thread(ThreadProc);
+                t.Start();
+            Thread.Sleep(1050);
+
+         
+                Console.WriteLine("1");
+                event_1.Set();
+                Thread.Sleep(2050);
+          
+                Console.WriteLine("2");
+               
+                event_2.Set();
+                Thread.Sleep(3050);
+                Console.Read();
+            }
+
+            // Visual Studio: Uncomment the following line.
+            //Console.Readline();
+        
+
+        static void ThreadProc()
         {
-            // The state object is the Timer object.
-            Timer t = (Timer)state;
-            t.Dispose();
-            Console.WriteLine("The timer callback executes.");
+            
+
+            Console.WriteLine("a");
+            event_1.WaitOne();
+            Console.WriteLine("b");
+
+            Console.WriteLine("c");
+            event_2.WaitOne();
+            Console.WriteLine("d");
         }
-    }
-}
+}  
+

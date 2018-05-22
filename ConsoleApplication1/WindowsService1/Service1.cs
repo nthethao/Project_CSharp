@@ -14,6 +14,7 @@ namespace WindowsService1
 {
     public partial class Service1 : ServiceBase
     {
+
         private Thread threadWriteLog = new Thread(ThreadTimer);
         static AutoResetEvent autoEvent = new AutoResetEvent(true);
 
@@ -42,7 +43,7 @@ namespace WindowsService1
         /// thực hiện vòng lặp thread 10s một lần
         /// </summary>
         /// <param name="state"></param>
-        private static  void ThreadTimer(object state)
+        private static void ThreadTimer(object state)
         {
             WriteLog("Log Test Begin");
             TimerCallback handler = new TimerCallback(WriteLog);
