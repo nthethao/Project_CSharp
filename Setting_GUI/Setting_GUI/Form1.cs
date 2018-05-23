@@ -106,24 +106,22 @@ namespace Setting_GUI
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     iniPath = Path.GetDirectoryName(openFileDialog.FileName) + Path.GetFileName(openFileDialog.FileName);
+                 
+                    // đọc file ini lên 
+                    var lines = File.ReadAllLines(iniPath);
+                    lbl_Path1.Text = lines[0];
+                    lbl_Path2.Text = lines[1];
+                    txt_Timer.Text = lines[2];
+                    if (lines[3] == "Overwrite")
+                    {
+                        rb_Overwrite.Checked = true;
+                    }
+                    else
+                    {
+                        rb_NewFile.Checked = true;
+                    }
                 }
-                // đọc file ini lên 
-
-                var lines = File.ReadAllLines(iniPath);
-                lbl_Path1.Text = lines[0];
-                lbl_Path2.Text = lines[1];
-                txt_Timer.Text = lines[2];
-                if (lines[3] == "Overwrite")
-                {
-                    rb_Overwrite.Checked = true;
-                }
-                else
-                {
-                    rb_NewFile.Checked = true;
-                }
-
             }
-
         }
 
         /// <summary>
