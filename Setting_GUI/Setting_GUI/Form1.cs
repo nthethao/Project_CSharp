@@ -34,8 +34,11 @@ namespace Setting_GUI
         /// <param name="e"></param>
         private void btn_Path1_Click(object sender, EventArgs e)
         {
-            lbl_Path1.Text = LoadFolder();
-            flag = true;
+            if (LoadFolder()!=null)
+            {
+                lbl_Path1.Text = LoadFolder();
+                flag = true;
+            }
         }
 
         /// <summary>
@@ -45,8 +48,11 @@ namespace Setting_GUI
         /// <param name="e"></param>
         private void btn_Path2_Click(object sender, EventArgs e)
         {
-            lbl_Path2.Text = LoadFolder();
-            flag = true;
+            if (LoadFolder() != null)
+            {
+                lbl_Path2.Text = LoadFolder();
+                flag = true;
+            }
         }
 
         /// <summary>
@@ -102,7 +108,7 @@ namespace Setting_GUI
                 openFileDialog.InitialDirectory = @"d:";
                 openFileDialog.Filter = "ini files (*.ini)|*.ini|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 1;
-                openFileDialog.RestoreDirectory = true;
+             //   openFileDialog.RestoreDirectory = true;
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     iniPath = Path.GetDirectoryName(openFileDialog.FileName) + Path.GetFileName(openFileDialog.FileName);
