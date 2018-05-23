@@ -108,31 +108,46 @@ namespace Setting_GUI
                     iniPath = Path.GetDirectoryName(openFileDialog.FileName) + Path.GetFileName(openFileDialog.FileName);
                 }
                 // đọc file ini lên 
-                string line = "";
-                string[] iniFile = new string[4];//có 4 thuộc tính cần lưu
-                using (StreamReader sr = new StreamReader(iniPath))
-                {
+                //string line = "";
+                //string[] iniFile = new string[4];//có 4 thuộc tính cần lưu
+                //using (StreamReader sr = new StreamReader(iniPath))
+                //{
 
-                    int i = 0;
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        iniFile[i] = line;
-                        i += 1;
-                    }
-                    //gán giá trị cho textbox
-                    lbl_Path1.Text = iniFile[0];
-                    lbl_Path2.Text = iniFile[1];
-                    txt_Timer.Text = iniFile[2];
-                    if (iniFile[3] == "Overwrite")
-                    {
-                        rb_Overwrite.Checked = true;
-                    }
-                    else
-                    {
-                        rb_NewFile.Checked = true;
-                    }
+                //    int i = 0;
+                //    while ((line = sr.ReadLine()) != null)
+                //    {
+                //        iniFile[i] = line;
+                //        i += 1;
+                //    }
+                //    //gán giá trị cho textbox
+                //    lbl_Path1.Text = iniFile[0];
+                //    lbl_Path2.Text = iniFile[1];
+                //    txt_Timer.Text = iniFile[2];
+                //    if (iniFile[3] == "Overwrite")
+                //    {
+                //        rb_Overwrite.Checked = true;
+                //    }
+                //    else
+                //    {
+                //        rb_NewFile.Checked = true;
+                //    }
+
+                var lines = File.ReadAllLines(iniPath);
+
+                lbl_Path1.Text = lines[0];
+                lbl_Path2.Text = lines[1];
+                txt_Timer.Text = lines[2];
+                if (lines[3] == "Overwrite")
+                {
+                    rb_Overwrite.Checked = true;
                 }
+                else
+                {
+                    rb_NewFile.Checked = true;
+                }
+
             }
+
         }
 
         /// <summary>
@@ -166,7 +181,7 @@ namespace Setting_GUI
                 {
                     this.Close();
                 }
-               
+
             }
             else
                 this.Close();
@@ -195,7 +210,7 @@ namespace Setting_GUI
             flag = true;
         }
 
-       
+
 
     }
 }
