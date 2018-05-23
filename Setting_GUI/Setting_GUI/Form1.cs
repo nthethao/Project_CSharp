@@ -108,7 +108,7 @@ namespace Setting_GUI
                 openFileDialog.InitialDirectory = @"d:";
                 openFileDialog.Filter = "ini files (*.ini)|*.ini|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 1;
-             //   openFileDialog.RestoreDirectory = true;
+                openFileDialog.RestoreDirectory = true;
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     iniPath = Path.GetDirectoryName(openFileDialog.FileName) + Path.GetFileName(openFileDialog.FileName);
