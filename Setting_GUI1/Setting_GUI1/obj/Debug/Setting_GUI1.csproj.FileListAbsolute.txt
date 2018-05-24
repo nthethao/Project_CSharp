@@ -1,10 +1,11 @@
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\bin\Debug\Setting_GUI1.exe.config
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\bin\Debug\Setting_GUI1.exe
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\bin\Debug\Setting_GUI1.pdb
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.csprojResolveAssemblyReference.cache
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.Form1.resources
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.Properties.Resources.resources
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.csproj.GenerateResource.Cache
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.exe
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.pdb
-c:\users\nthethao\documents\visual studio 2012\Projects\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.CheckFolderTimer.resources
+D:\Setting_GUI1\Setting_GUI1\bin\Debug\Setting_GUI1.exe.config
+D:\Setting_GUI1\Setting_GUI1\bin\Debug\UserConfiguration.ini
+D:\Setting_GUI1\Setting_GUI1\bin\Debug\Setting_GUI1.exe
+D:\Setting_GUI1\Setting_GUI1\bin\Debug\Setting_GUI1.pdb
+D:\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.csprojResolveAssemblyReference.cache
+D:\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.CheckFolderTimer.resources
+D:\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.Form1.resources
+D:\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.Properties.Resources.resources
+D:\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.csproj.GenerateResource.Cache
+D:\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.exe
+D:\Setting_GUI1\Setting_GUI1\obj\Debug\Setting_GUI1.pdb

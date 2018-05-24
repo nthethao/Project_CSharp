@@ -1,25 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Setting_GUI1
 {
     public partial class Form1 : Form
     {
-        public delegate void SendMessage(String value);//su dung delegate de truyen gia tri tu form2 sang form1
+        // public delegate void SendMessage(String value);//su dung delegate de truyen gia tri tu form2 sang form1
 
         public Form1()
         {
             InitializeComponent();
             LoadSetting();
         }
+
         /// <summary>
         /// btn_SendPath
         /// </summary>
@@ -28,11 +22,11 @@ namespace Setting_GUI1
         private void btn_SendPath_Click(object sender, EventArgs e)
         {
             string temp = LoadFolder();//nếu trả về chuổi rỗng thì không thay đổi text 
-            if (temp!=null)
+            if (temp != null)
             {
                 lbl_SendPath.Text = temp;
             }
-            
+
         }
         /// <summary>
         /// btn_ReservePath
@@ -60,9 +54,9 @@ namespace Setting_GUI1
             {
                 lbl_LogPath.Text = temp;
             }
-            
+
         }
-       
+
         /// <summary>
         /// btn_CheckFolderTimer
         /// </summary>
@@ -71,14 +65,15 @@ namespace Setting_GUI1
         /// 
         private void btn_CheckFolderTimer_Click(object sender, EventArgs e)
         {
-            CheckFolderTimer form = new CheckFolderTimer(SetValue);
-            form.ShowDialog();
+            //CheckFolderTimer form = new CheckFolderTimer(SetValue);
+            //form.ShowDialog();
+            this.lbl_CheckFolderTimer.Text = CheckFolderTimer.GetTimer(this.lbl_CheckFolderTimer.Text);
+        }
 
-        }
-        private void SetValue(String value)
-        {
-            this.lbl_CheckFolderTimer.Text = value;
-        }
+        //private void SetValue(String value)
+        //{
+        //    this.lbl_CheckFolderTimer.Text = value;
+        //}
 
 
         /// <summary>
@@ -93,7 +88,7 @@ namespace Setting_GUI1
             {
                 lbl_SendCompletePath.Text = temp;
             }
-            
+
         }
         /// <summary>
         /// button Save
@@ -113,10 +108,6 @@ namespace Setting_GUI1
         {
             this.Close();
         }
-
-
-
-
 
 
         /// <summary>
@@ -143,10 +134,12 @@ namespace Setting_GUI1
         {
             try
             {
-                //lấy link file ini
-                string filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
-                filePath = Directory.GetParent(Directory.GetParent(filePath).FullName).FullName;
-                filePath = filePath + "\\UserConfiguration.ini";
+                ////lấy link file ini
+                //string filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
+                //filePath = Directory.GetParent(Directory.GetParent(filePath).FullName).FullName;
+                //filePath = filePath + "\\UserConfiguration.ini";
+                string baseDirectory = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
+                string filePath = Path.Combine(baseDirectory, "UserConfiguration.ini");
 
                 //ghi file ini
                 StreamWriter strWrite = new StreamWriter(filePath, false);
@@ -176,21 +169,23 @@ namespace Setting_GUI1
             try
             {
                 //lấy link file ini
-                string filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
-                filePath = Directory.GetParent(Directory.GetParent(filePath).FullName).FullName;
-                filePath = filePath + "\\UserConfiguration.ini";
+                string baseDirectory = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
+                string filePath = Path.Combine(baseDirectory, "UserConfiguration.ini");
+                //string filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
+                // filePath = Directory.GetParent(Directory.GetParent(filePath).FullName).FullName;
+                // filePath = filePath + "\\UserConfiguration.ini";
                 //lấy dữ liệu từ ini lên
                 var lines = File.ReadAllLines(filePath);
                 foreach (var line in lines)
                 {
-                    try
-                    {
+                    //try
+                    //{
                         check(line);
-                    }
-                    catch (Exception)
-                    {
-                        continue;// sai format thì thực hiện dòng tiếp theo
-                    }
+                    //}
+                    //catch (Exception)
+                    //{
+                    //    continue;// sai format thì thực hiện dòng tiếp theo
+                    //}
                 }
             }
             catch
@@ -205,33 +200,60 @@ namespace Setting_GUI1
         /// <param name="line"></param>
         private void check(string line)
         {
-            int idSplit = line.IndexOf('=');
-            string beforeSplit = line.Substring(0, idSplit);
-            string afterSplit = line.Substring(idSplit + 1);
-            if (afterSplit == "\"\"" || afterSplit == null)//nếu gặp giá trị rỗng hoặc "" thì text là null
+            //int idSplit = line.IndexOf('=');
+            //string beforeSplit = line.Substring(0, idSplit);
+            //string afterSplit = line.Substring(idSplit + 1);
+            //if (afterSplit == "\"\"" || afterSplit == null)//nếu gặp giá trị rỗng hoặc "" thì text là null
+            //{
+            //    afterSplit = null;
+            //}
+            string[] lineSplit = line.Split('=');
+            if (string.IsNullOrEmpty(lineSplit[0]))
             {
-                afterSplit = null;
+                return;
             }
-            switch (beforeSplit)
+
+            switch (lineSplit[0])
             {
                 case "SendPath":
-                    lbl_SendPath.Text = afterSplit;
+                    lbl_SendPath.Text = lineSplit[1];
                     break;
                 case "ReservePath":
-                    lbl_ReservePath.Text = afterSplit;
+                    lbl_ReservePath.Text = lineSplit[1];
                     break;
                 case "LogPath":
-                    lbl_LogPath.Text = afterSplit;
+                    lbl_LogPath.Text = lineSplit[1];
                     break;
                 case "CheckFolderTimer":
-                    lbl_CheckFolderTimer.Text = afterSplit;
+                    lbl_CheckFolderTimer.Text = lineSplit[1];
                     break;
                 case "SendCompletePath":
-                    lbl_SendCompletePath.Text = afterSplit;
+                    lbl_SendCompletePath.Text = lineSplit[1];
                     break;
                 default:
                     break;
             }
+
+            //switch (beforeSplit)
+            //{
+            //    case "SendPath":
+            //        lbl_SendPath.Text = afterSplit;
+            //        break;
+            //    case "ReservePath":
+            //        lbl_ReservePath.Text = afterSplit;
+            //        break;
+            //    case "LogPath":
+            //        lbl_LogPath.Text = afterSplit;
+            //        break;
+            //    case "CheckFolderTimer":
+            //        lbl_CheckFolderTimer.Text = afterSplit;
+            //        break;
+            //    case "SendCompletePath":
+            //        lbl_SendCompletePath.Text = afterSplit;
+            //        break;
+            //    default:
+            //        break;
+            //}
         }
     }
 }
